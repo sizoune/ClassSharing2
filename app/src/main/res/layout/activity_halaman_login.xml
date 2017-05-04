@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightGreen"
+    tools:context="com.studio.pattimura.testingclasssharing2.HalamanLogin">
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"
+        android:text="Idev Class Sharing Android 2"
+        android:textColor="@color/putih"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/edUsername"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="25"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/edPass"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_button_state"
+        android:text="Masuk"
+        android:textColor="@color/putih" />
+
+</RelativeLayout>
